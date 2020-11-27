@@ -1,18 +1,9 @@
-<!DOCTYPE html >
-<html lang="{{ str_replace('_', '-', app()->getLocale())}}">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About | | Hello City</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
+  <!-- il herite de la page app.blade.php -->
+  @extends('app')
+   <!-- appel du yield -->
+    @section('contente')
     <p>Construit par &hearts; Niagoye</p>
     <p><a href="/">revenir a la page d'acceuil</a></p>
-    <footer>
-        <p>&copy; Copyright {{ date('Y') }} &middot; </p>
-    </footer> 
-</body>
-</html>
+    @endsection('contente')
+   <!-- fin de l'appel -->
+ 
