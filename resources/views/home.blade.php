@@ -9,7 +9,7 @@
         <h1>je suis de Mboumba </h1>
         <p>Il est {{ date('h:m A') }}.</p>
         <footer>
-           <p>&copy; Copyright {{ date('Y') }} &middot; <a href="">A propos</a></p>
-        </footer>
+           <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about">A propos</a></p>
+        </footer> 
     </body>
 </html>
