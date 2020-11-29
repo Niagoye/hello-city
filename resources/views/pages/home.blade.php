@@ -5,6 +5,7 @@
 
    <!-- appel du yield -->
     @section('contente')
+    <img src="/images/ville.jpg" alt="Dakar City">
         <h1>je suis de Mboumba </h1>
         <p>Il est {{ date('h:m A') }}.</p>
     @endsection
