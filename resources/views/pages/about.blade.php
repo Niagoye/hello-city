@@ -8,7 +8,7 @@
    <!-- appel du yield -->
     @section('contente')
     <p>Construit par &hearts; Niagoye</p>
-    <p><a href="/">revenir a la page d'acceuil</a></p>
+    <p><a href="{{route('home')}}">revenir a la page d'acceuil</a></p>
     @endsection
    <!-- fin de l'appel -->
  
